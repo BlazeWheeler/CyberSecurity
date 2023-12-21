@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
+}
+
+/* Base styles for the main container */
+.main-container {
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Styles for the phone image */
+.phone-image {
+    width: 400px; /* Set a fixed width for the image */
+    display: block;
+    margin-right: 20px; /* Adjust the margin as needed */
+    position: relative;
+    margin-top: -480px; /* Adjust the margin as needed */
+}
+
+/* Set the image to be proportionate to its container */
+.phone-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.screen-container {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.phone-screen {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    animation: screenAnimation 12s linear infinite; /* Total duration is the sum of individual durations and delays */
+}
+
+.phone-screen:nth-child(1) {
+    animation-delay: 0s; /* Start immediately */
+}
+
+.phone-screen:nth-child(2) {
+    animation-delay: 3s; /* Delay it by 9 seconds */
+}
+
+.phone-screen:nth-child(3) {
+    animation-delay: 9s; /* Delay it by 18 seconds */
+}
+
+@keyframes screenAnimation {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+/* Styles for the content */
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+/* Media query to hide the phone image below a specific screen size */
+@media (max-width: 870px) {
+    .phone-image {
+        display: none;
+    }
+    .get-app-container{  
+    position: absolute;
+ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 320px; /* Set a fixed width for the image */
+    margin-top: 600px;
+    margin-right: 435px;
+    
+    font-size: 14px;
+   
+    }
+}
+
+
+/* Styles for the "Get App" section container */
+.get-app-container {
+    text-align: center;
+    width: 320px; /* Set a fixed width for the image */
+    margin-top: 600px;
+    margin-left: 435px;
+    position: absolute;
+    font-size: 14px;
+   
+}
+
+
+
+/* Styles for the app icons */
+.app-icons {
+    width: 320px; /* Set a fixed width for the image */
+    display: block;
+  
+    position: relative;
+    margin-top: -40px; /* Adjust the margin as needed to maintain 10px spacing */
+    
+}
+
+.app-icons img {
+    max-width: 120px; /* Adjust the max width as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+    
+}
+
+
+
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    width: 370px;
+}
+
+.container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 88%;
+    font-size:13px ;
+    padding: 10px;
+   
+    margin: 10px 0;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
+
+form button {
+    width: 88%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Adjust the border-radius to your desired level */
+    cursor: pointer;
+}
+
+/* Styles for the divider */
+.divider {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background-color: #efefef;
+}
+
+.divider-text {
+    margin: 0 10px;
+ 
+    font-size: 13px;
+    color: #968989e1
+}
+
+a {
+    text-decoration: none;
+    color: #003569;
+    font-weight: bold;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* CSS for the footer */
+/* CSS for the footer */
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #9a9999; /* Lighter grey text color */
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    margin-top: 950px;
+}
+
+.footer-attributes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-attributes a {
+    color: #9a9999; /* Lighter grey text color */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal; /* Less bold text */
+}
+
+.footer-copyright {
+    font-size: 12px;
+    font-weight: normal; /* Less bold text */
+}
+
+.footer-copyright {
+    font-size: 12px;
+    font-weight: normal; /* Less bold text */
+}
+
+
+/* ... (any other existing CSS code) ... */

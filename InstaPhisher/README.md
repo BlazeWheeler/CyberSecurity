@@ -27,7 +27,7 @@
 
 Instagram phishing clone website, created solely for legal purposes. This GitHub repo offers a fascinating opportunity to explore the world of cybersecurity and educate users about the dangers of phishing attacks. By replicating the Instagram interface and sending login credentials to a telegram bot, it aims to raise awareness and promote ethical hacking practices.
 
-![App Preview](Preview/InstaPhisherPreview)
+![App Preview](Preview/InstaPhisherPreview.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

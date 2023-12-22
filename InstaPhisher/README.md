@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="Preview/InstaPhisherIcon.png" alt="Logo" width="80" height="80">
+    <img src="Preview/instacloneloginlogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">InstaPhisher</h3>
@@ -32,7 +32,7 @@ Instagram phishing clone website, created solely for legal purposes. This GitHub
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### App Demo
-![App Preview](Preview/InstaPhisherDemo)
+![App Preview](Preview/InstaPhisherDemo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

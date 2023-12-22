@@ -72,9 +72,7 @@ Getting started is fairly simple...
 
 * Format Your ouptut
   ```sh
- 	// Setting 
-	$apiToken = "******";
-	$YOUR_ID_TELE = "********";
+ 	$d = new DateTime("now", new DateTimeZone("America/New_York")); // Set Your country DF Time 
   ```
 
 * Open Terminal

@@ -80,9 +80,9 @@ Getting started is fairly simple...
 
 - [x] Create UI
 - [x] Create Data Model
-- [ ] Implement Horizontal UI
-- [ ] Implement Splash Screen Pin Code Entry 
-- [ ] Update Depreciated Code
+- [x] Implement Horizontal UI
+- [x] Implement Splash Screen Pin Code Entry 
+- [x] Update Depreciated Code
  
 ## Further Documentation
  [Calc++ Docs](https://github.com/BlazeWheeler/Swift_Projects/blob/main/Calc%2B%2B_PhotoVault%20/Calc%2B%2B%20Documentation.pdf) 
